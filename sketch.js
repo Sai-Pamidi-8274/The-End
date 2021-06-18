@@ -45,12 +45,6 @@ function preload(){
   gameOverImage = loadImage("gameOver.png");
   
   restartImage = loadImage("restart.png");
-  
-  die = loadSound("die.mp3");
-  
-  jump = loadSound("jump.mp3");
-  
-  check = loadSound("checkPoint.mp3");
 }
 
 function setup() {
@@ -92,7 +86,7 @@ function draw() {
     
   if(keyDown("space") && trex.y > 161) {
     trex.velocityY = -12;
-    jump.play();
+   
   }
 
   // console.log(trex.y);
@@ -119,7 +113,7 @@ function draw() {
     text("Time: " + min + " min " + remainsec + " sec",400,50);
     
     if(score > 0 && score % 100 === 0){
-      check.play();
+
     }
     
     if(GroupObstacles.isTouching(trex)){
