@@ -46,11 +46,11 @@ function preload(){
   
   restartImage = loadImage("restart.png");
   
-  die = loadSound("Assets/die.mp3");
+  die = loadSound("die.mp3");
   
-  jump = loadSound("Assets/jump.mp3");
+  jump = loadSound("jump.mp3");
   
-  check = loadSound("Assets/checkPoint.mp3");
+  check = loadSound("checkPoint.mp3");
 }
 
 function setup() {
