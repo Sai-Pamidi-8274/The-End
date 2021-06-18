@@ -22,29 +22,29 @@ var remainsec;
 localStorage["HighestScore"]=0;
 
 function preload(){
-  trex_running = loadAnimation("Sprites/trex1.png","Sprites/trex2.png","Sprites/trex3.png");
+  trex_running = loadAnimation("trex1.png","trex2.png","trex3.png");
   
-  trex_collided = loadImage("Sprites/trex_collided.png");
+  trex_collided = loadImage("trex_collided.png");
   
-  groundImage = loadImage("Sprites/ground2.png")
+  groundImage = loadImage("ground2.png")
   
-  cloudImages = loadImage("Sprites/cloud.png");
+  cloudImages = loadImage("cloud.png");
   
-  obstacleImages1 = loadImage("Sprites/obstacle1.png");
+  obstacleImages1 = loadImage("obstacle1.png");
   
-  obstacleImages2 = loadImage("Sprites/obstacle2.png");
+  obstacleImages2 = loadImage("obstacle2.png");
   
-  obstacleImages3 = loadImage("Sprites/obstacle3.png");
+  obstacleImages3 = loadImage("obstacle3.png");
   
-  obstacleImages4 = loadImage("Sprites/obstacle4.png");
+  obstacleImages4 = loadImage("obstacle4.png");
   
-  obstacleImages5 = loadImage("Sprites/obstacle5.png");
+  obstacleImages5 = loadImage("obstacle5.png");
 
-  obstacleImages6 = loadImage("Sprites/obstacle6.png");
+  obstacleImages6 = loadImage("obstacle6.png");
 
-  gameOverImage = loadImage("Sprites/gameOver.png");
+  gameOverImage = loadImage("gameOver.png");
   
-  restartImage = loadImage("Sprites/restart.png");
+  restartImage = loadImage("restart.png");
   
   die = loadSound("Assets/die.mp3");
   
